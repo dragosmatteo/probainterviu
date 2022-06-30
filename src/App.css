@@ -1,0 +1,43 @@
+body {
+   overflow-x: hidden;
+}
+
+.section-container {
+   width: 1640px;
+   max-width: 94%;
+   margin: auto;
+}
+
+#servicii {
+   background: url("./assets/servicii-element.png") no-repeat;
+   background-position: -160% 10%;
+   background-size: 70%;
+   padding-top: 10rem;
+}
+
+#function {
+   background: url("./assets/function.png") no-repeat;
+   min-height: 1300px;
+   display: flex;
+   align-items: center;
+   background-size: 120%;
+   transform: scale(1.05);
+   background-position: 20% 100%;
+   /* margin-right: 10rem; */
+}
+
+@media (max-width: 1600px) {
+   #function {
+      min-height: auto;
+      background: rgb(0, 0, 0);
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+   }
+}
+
+@media (max-width: 800px) {
+   #servicii {
+      background: none;
+      padding-top: 2rem;
+   }
+}
