@@ -23,7 +23,6 @@ body {
    background-size: 120%;
    transform: scale(1.05);
    background-position: 20% 100%;
-   /* margin-right: 10rem; */
 }
 
 @media (max-width: 1600px) {

@@ -4,7 +4,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import HeaderComp from "./HeaderComp";
 import HeaderMobile from "./HeaderMobile";
 import { v4 } from "uuid";
-
+import { links } from "../data";
 const Header = () => {
    const [nav, setNav] = useState(false);
 
@@ -13,27 +13,6 @@ const Header = () => {
    const handleClose = () => setNav(!nav);
 
    const url = "#";
-
-   const links = [
-      {
-         title: "HOME",
-      },
-      {
-         title: "DESPRE NOI",
-      },
-      {
-         title: "CUM FUNCTIONEAZA",
-      },
-      {
-         title: "SFATURI",
-      },
-      {
-         title: "F.A.Q.",
-      },
-      {
-         title: "CONTACT",
-      },
-   ];
 
    return (
       <div className="w-screen h-[120px] bg-white z-10">
@@ -56,11 +35,11 @@ const Header = () => {
                </div>
             </div>
 
-            <div className=" dm:hidden" onClick={navClick}>
+            <div className="dm:hidden" onClick={navClick}>
                {!nav ? (
-                  <MenuIcon className="w-10 " />
+                  <MenuIcon className="w-10 cursor-poiner" />
                ) : (
-                  <XIcon className="w-10" />
+                  <XIcon className="w-10 cursor-poiner" />
                )}
             </div>
          </div>
