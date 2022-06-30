@@ -12,15 +12,15 @@ const Footer = () => {
                <img src={logo} alt="logo" className="w-44 xl:w-[100%]" />
                <div className="flex pt-8 text-[#CEEFF1]">
                   <a href={url}>
-                     <FaFacebook className="text-[37px] m-2 md:mr-4  hover:text-[#dc2626] transition ease-in duration-100" />
+                     <FaFacebook className="text-[37px] m-2 md:mr-4  hover:text-white transition ease-in duration-100" />
                   </a>
 
                   <a href={url}>
-                     <FaInstagram className="text-[37px] m-2 md:mx-8  hover:text-[#fbbf24] transition ease-in duration-100" />
+                     <FaInstagram className="text-[37px] m-2 md:mx-8  hover:text-white transition ease-in duration-100" />
                   </a>
 
                   <a href={url}>
-                     <FaLinkedin className="text-[37px] m-2 md:mx-4  hover:text-[#3b82f6] transition ease-in duration-100" />
+                     <FaLinkedin className="text-[37px] m-2 md:mx-4  hover:text-white transition ease-in duration-100" />
                   </a>
                </div>
             </div>

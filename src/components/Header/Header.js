@@ -29,7 +29,7 @@ const Header = () => {
                </ul>
 
                <div className="hidden dm:flex pl-4">
-                  <button className="border-none bg-[#F89A76] text-white px-10 py-2 rounded-3xl drop-shadow-lg">
+                  <button className="border-none bg-[#F89A76] text-white px-10 py-2 rounded-3xl drop-shadow-lg ">
                      <a href={url}>LOG IN</a>
                   </button>
                </div>

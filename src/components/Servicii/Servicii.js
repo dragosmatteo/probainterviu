@@ -10,7 +10,7 @@ const Servicii = () => {
 
    return (
       <div className="w-full my-2 md:my-20" id="servicii">
-         <div className="section-container mx-auto px-2 text-[#2E324D]">
+         <div className="section-container mx-auto text-[#2E324D]">
             <h1 className="text-center text-3xl md:text-5xl font-semibold uppercase">
                Lorem Ipsum <br />
                Dolor Sit (Servicii)
