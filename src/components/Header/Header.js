@@ -35,11 +35,11 @@ const Header = () => {
                </div>
             </div>
 
-            <div className="dm:hidden" onClick={navClick}>
+            <div className="relative dm:hidden" onClick={navClick}>
                {!nav ? (
-                  <MenuIcon className="w-10 cursor-poiner" />
+                  <MenuIcon className="w-10 cursor-pointer" />
                ) : (
-                  <XIcon className="w-10 cursor-poiner" />
+                  <XIcon className="w-10 cursor-pointer" />
                )}
             </div>
          </div>

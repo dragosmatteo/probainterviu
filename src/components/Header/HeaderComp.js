@@ -5,7 +5,7 @@ const HeaderComp = (props) => {
    const url = "#";
    return (
       <>
-         <li className="mr-10">
+         <li className="mr-10 text-[18px]">
             <a href={url}>{title}</a>
          </li>
       </>
