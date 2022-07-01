@@ -28,7 +28,7 @@ const Servicii = () => {
             </div>
 
             <div className="text-center mt-12">
-               <button className="text-sm font-bold border-none bg-[#F89A76] text-white px-16 py-3 rounded-3xl drop-shadow-lg">
+               <button className="text-sm font-bold border-solid border-2 bg-[#F89A76] border-[#F89A76]  text-white hover:bg-[transparent] hover:text-[#F89A76] duration-300  px-16 py-3 rounded-3xl drop-shadow-lg">
                   <a href={url}>BUTTON</a>
                </button>
             </div>

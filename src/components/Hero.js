@@ -18,7 +18,7 @@ const Hero = () => {
                </p>
 
                <div>
-                  <button className="mt-4 py-4 px-4 text-xl border-none font-bold md:text-2xl bg-[#F89A76] text-white rounded-3xl drop-shadow-lg md:px-16 md:py-8 mx-auto dm:mx-0 dm:mt-16  ">
+                  <button className="mt-4 py-4 px-4 text-xl rounded-3xl drop-shadow-lg font-bold md:text-2xl border-solid border-2 bg-[#F89A76] border-[#F89A76]  text-white hover:bg-[transparent] hover:text-[#F89A76] duration-300 md:px-16 md:py-8 mx-auto dm:mx-0 dm:mt-16  ">
                      FA-TI CONT GRATUIT
                   </button>
                </div>

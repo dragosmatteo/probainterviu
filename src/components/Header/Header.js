@@ -29,7 +29,7 @@ const Header = () => {
                </ul>
 
                <div className="hidden dm:flex pl-4">
-                  <button className="border-none bg-[#F89A76] text-white px-10 py-2 rounded-3xl drop-shadow-lg ">
+                  <button className=" border-solid border-2 bg-[#F89A76] border-[#F89A76]  text-white hover:bg-[transparent] hover:text-[#F89A76] duration-300  px-10 py-2 rounded-3xl drop-shadow-lg ">
                      <a href={url}>LOG IN</a>
                   </button>
                </div>
@@ -56,7 +56,7 @@ const Header = () => {
             ))}
 
             <div className="py-4 items-center ">
-               <button className="border-none bg-[#F89A76] text-white px-10 py-2 rounded-3xl drop-shadow-lg">
+               <button className=" border-solid border-2 bg-[#F89A76] border-[#F89A76]  text-white hover:bg-[transparent] hover:text-[#F89A76] duration-300  px-10 py-2 rounded-3xl drop-shadow-lg">
                   <a href={url}>LOG IN</a>
                </button>
             </div>
