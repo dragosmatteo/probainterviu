@@ -1,9 +1,37 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { v4 } from "uuid";
 import logo from "../../assets/logof.png";
+import { footer1 } from "../data";
+import { footer2 } from "../data";
+import { footer3 } from "../data";
 
 const Footer = () => {
    const url = "#";
+
+   const elements1 = footer1.map((footer) => {
+      return (
+         <li className="py-1" key={v4()}>
+            <a href={url}>{footer.title}</a>
+         </li>
+      );
+   });
+
+   const elements2 = footer2.map((footer) => {
+      return (
+         <li className="py-1" key={v4()}>
+            <a href={url}>{footer.title}</a>
+         </li>
+      );
+   });
+
+   const elements3 = footer3.map((footer) => {
+      return (
+         <li className="py-1" key={v4()}>
+            <a href={url}>{footer.title}</a>
+         </li>
+      );
+   });
 
    return (
       <div className="w-full mt-10 xl:mt-24 min-h-[469px] text-white bg-[#2E324D] ">
@@ -30,59 +58,17 @@ const Footer = () => {
 
             <div>
                <h6 className="font-bold text-[30px] py-2">Platformă</h6>
-               <ul className="text-[20px] font-light">
-                  <li className="py-1">
-                     <a href={url}>Creează Cont</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Accesează Cont</a>
-                  </li>
-               </ul>
+               <ul className="text-[20px] font-light">{elements1}</ul>
             </div>
 
             <div>
                <h6 className="font-bold text-[30px] py-2">Meniu</h6>
-               <ul className="text-[20px] font-light">
-                  <li className="py-1">
-                     <a href={url}> Home</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Despre Noi</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Cum Funcționează</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Sfaturi</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> F.A.Q.</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Contact</a>
-                  </li>
-               </ul>
+               <ul className="text-[20px] font-light">{elements2}</ul>
             </div>
 
             <div>
                <h6 className="font-bold text-[30px] py-2">Legal</h6>
-               <ul className="text-[20px] font-light">
-                  <li className="py-1">
-                     <a href={url}> Termeni si Conditii</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Politica Confidentialitate</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> Politica Cookies</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> GDPR</a>
-                  </li>
-                  <li className="py-1">
-                     <a href={url}> ANPC</a>
-                  </li>
-               </ul>
+               <ul className="text-[20px] font-light">{elements3}</ul>
             </div>
          </div>
       </div>
